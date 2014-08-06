@@ -14,3 +14,8 @@ C:\Users\khosrow azizi\workspace\MasterExperimentV3\MongoDB.Bson\bin\Release\Mon
 C:\Users\khosrow azizi\workspace\MasterExperimentV3\MongoDB.Bson\bin\Release\MongoDB.Bson.pdb
 C:\Users\khosrow azizi\workspace\MasterExperimentV3\MongoDB.Bson\obj\Release\MongoDB.Bson.dll
 C:\Users\khosrow azizi\workspace\MasterExperimentV3\MongoDB.Bson\obj\Release\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\workspace\MasterGraduationExperiment\MongoDB.Bson\bin\Release\MongoDB.Bson.XML
+C:\Users\khosrow azizi\workspace\MasterGraduationExperiment\MongoDB.Bson\bin\Release\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterGraduationExperiment\MongoDB.Bson\bin\Release\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\workspace\MasterGraduationExperiment\MongoDB.Bson\obj\Release\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterGraduationExperiment\MongoDB.Bson\obj\Release\MongoDB.Bson.pdb

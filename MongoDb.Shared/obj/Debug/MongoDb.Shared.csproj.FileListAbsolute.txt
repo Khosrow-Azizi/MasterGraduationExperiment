@@ -1,0 +1,13 @@
+C:\Users\khosrow azizi\documents\visual studio 2012\Projects\MasterExperiment\MongoDb.Shared\bin\Debug\MongoDb.Shared.dll
+C:\Users\khosrow azizi\documents\visual studio 2012\Projects\MasterExperiment\MongoDb.Shared\bin\Debug\MongoDb.Shared.pdb
+C:\Users\khosrow azizi\documents\visual studio 2012\Projects\MasterExperiment\MongoDb.Shared\obj\Debug\MongoDb.Shared.dll
+C:\Users\khosrow azizi\documents\visual studio 2012\Projects\MasterExperiment\MongoDb.Shared\obj\Debug\MongoDb.Shared.pdb
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDb.Shared\bin\Debug\MongoDb.Shared.dll
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDb.Shared\bin\Debug\MongoDb.Shared.pdb
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDb.Shared\obj\Debug\MongoDb.Shared.dll
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDb.Shared\obj\Debug\MongoDb.Shared.pdb
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDb.Shared\bin\Debug\MongoDb.Shared.dll
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDb.Shared\bin\Debug\MongoDb.Shared.pdb
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDb.Shared\obj\Debug\MongoDb.Shared.csprojResolveAssemblyReference.cache
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDb.Shared\obj\Debug\MongoDb.Shared.dll
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDb.Shared\obj\Debug\MongoDb.Shared.pdb
