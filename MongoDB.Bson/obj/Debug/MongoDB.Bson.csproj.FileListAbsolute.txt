@@ -1,0 +1,18 @@
+C:\Users\khosrow azizi\documents\visual studio 2012\Projects\MasterExperiment\MongoDB.Bson\bin\Debug\MongoDB.Bson.XML
+C:\Users\khosrow azizi\documents\visual studio 2012\Projects\MasterExperiment\MongoDB.Bson\bin\Debug\MongoDB.Bson.dll
+C:\Users\khosrow azizi\documents\visual studio 2012\Projects\MasterExperiment\MongoDB.Bson\bin\Debug\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\documents\visual studio 2012\Projects\MasterExperiment\MongoDB.Bson\obj\Debug\MongoDB.Bson.csprojResolveAssemblyReference.cache
+C:\Users\khosrow azizi\documents\visual studio 2012\Projects\MasterExperiment\MongoDB.Bson\obj\Debug\MongoDB.Bson.dll
+C:\Users\khosrow azizi\documents\visual studio 2012\Projects\MasterExperiment\MongoDB.Bson\obj\Debug\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDB.Bson\bin\Debug\MongoDB.Bson.XML
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDB.Bson\bin\Debug\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDB.Bson\bin\Debug\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDB.Bson\obj\Debug\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDB.Bson\obj\Debug\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDB.Bson\obj\Debug\MongoDB.Bson.csprojResolveAssemblyReference.cache
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDB.Bson\bin\Debug\MongoDB.Bson.XML
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDB.Bson\bin\Debug\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDB.Bson\bin\Debug\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDB.Bson\obj\Debug\MongoDB.Bson.csprojResolveAssemblyReference.cache
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDB.Bson\obj\Debug\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDB.Bson\obj\Debug\MongoDB.Bson.pdb

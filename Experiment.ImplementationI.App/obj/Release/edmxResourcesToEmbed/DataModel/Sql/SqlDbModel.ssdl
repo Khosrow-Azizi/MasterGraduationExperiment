@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SqlDbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="SqlDbModelStoreContainer">
+    <EntitySet Name="Department" EntityType="SqlDbModel.Store.Department" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Project" EntityType="SqlDbModel.Store.Project" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProjectUser" EntityType="SqlDbModel.Store.ProjectUser" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="User" EntityType="SqlDbModel.Store.User" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__Project__Departm__0DAF0CB0" Association="SqlDbModel.Store.FK__Project__Departm__0DAF0CB0">
+      <End Role="Department" EntitySet="Department" />
+      <End Role="Project" EntitySet="Project" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Project__Manager__0EA330E9" Association="SqlDbModel.Store.FK__Project__Manager__0EA330E9">
+      <End Role="User" EntitySet="User" />
+      <End Role="Project" EntitySet="Project" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProjectUs__Proje__0AD2A005" Association="SqlDbModel.Store.FK__ProjectUs__Proje__0AD2A005">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="ProjectUser" EntitySet="ProjectUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProjectUs__UserI__0BC6C43E" Association="SqlDbModel.Store.FK__ProjectUs__UserI__0BC6C43E">
+      <End Role="User" EntitySet="User" />
+      <End Role="ProjectUser" EntitySet="ProjectUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__User__Department__0CBAE877" Association="SqlDbModel.Store.FK__User__Department__0CBAE877">
+      <End Role="Department" EntitySet="Department" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ManagerId" Type="int" Nullable="false" />
+    <Property Name="DepartmentId" Type="int" Nullable="false" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProjectUser">
+    <Key>
+      <PropertyRef Name="ProjectId" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ProjectId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="DepartmentId" Type="int" Nullable="false" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Project__Departm__0DAF0CB0">
+    <End Role="Department" Type="SqlDbModel.Store.Department" Multiplicity="1" />
+    <End Role="Project" Type="SqlDbModel.Store.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Project__Manager__0EA330E9">
+    <End Role="User" Type="SqlDbModel.Store.User" Multiplicity="1" />
+    <End Role="Project" Type="SqlDbModel.Store.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="ManagerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProjectUs__Proje__0AD2A005">
+    <End Role="Project" Type="SqlDbModel.Store.Project" Multiplicity="1" />
+    <End Role="ProjectUser" Type="SqlDbModel.Store.ProjectUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProjectUser">
+        <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProjectUs__UserI__0BC6C43E">
+    <End Role="User" Type="SqlDbModel.Store.User" Multiplicity="1" />
+    <End Role="ProjectUser" Type="SqlDbModel.Store.ProjectUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProjectUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__User__Department__0CBAE877">
+    <End Role="Department" Type="SqlDbModel.Store.Department" Multiplicity="1" />
+    <End Role="User" Type="SqlDbModel.Store.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

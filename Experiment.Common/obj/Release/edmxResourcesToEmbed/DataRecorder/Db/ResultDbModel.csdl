@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ResultDbModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Entities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="PartIRandomData" EntityType="ResultDbModel.PartIRandomData" />
+    <EntitySet Name="PartIResult" EntityType="ResultDbModel.PartIResult" />
+  </EntityContainer>
+  <EntityType Name="PartIRandomData">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PartIResult">
+    <Key>
+      <PropertyRef Name="TestNumber" />
+      <PropertyRef Name="DataBaseType" />
+      <PropertyRef Name="TestCase" />
+      <PropertyRef Name="TestScenario" />
+    </Key>
+    <Property Name="TestNumber" Type="Int32" Nullable="false" />
+    <Property Name="DataBaseType" Type="Int32" Nullable="false" />
+    <Property Name="TestCase" Type="Int32" Nullable="false" />
+    <Property Name="TestScenario" Type="Int32" Nullable="false" />
+    <Property Name="ExecutionTime" Type="Double" Nullable="false" />
+    <Property Name="DateTimeAdded" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ResultDbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ResultDbModelStoreContainer">
+    <EntitySet Name="PartIRandomData" EntityType="ResultDbModel.Store.PartIRandomData" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PartIResult" EntityType="ResultDbModel.Store.PartIResult" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="PartIRandomData">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="int" Nullable="false" />
+    <Property Name="Value" Type="nvarchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="PartIResult">
+    <Key>
+      <PropertyRef Name="TestNumber" />
+      <PropertyRef Name="DataBaseType" />
+      <PropertyRef Name="TestCase" />
+      <PropertyRef Name="TestScenario" />
+    </Key>
+    <Property Name="TestNumber" Type="int" Nullable="false" />
+    <Property Name="DataBaseType" Type="int" Nullable="false" />
+    <Property Name="TestCase" Type="int" Nullable="false" />
+    <Property Name="TestScenario" Type="int" Nullable="false" />
+    <Property Name="ExecutionTime" Type="float" Nullable="false" />
+    <Property Name="DateTimeAdded" Type="datetime" Nullable="false" />
+  </EntityType>
+</Schema>

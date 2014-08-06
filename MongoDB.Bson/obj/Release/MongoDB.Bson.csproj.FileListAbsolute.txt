@@ -1,0 +1,16 @@
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDB.Bson\bin\Release\MongoDB.Bson.XML
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDB.Bson\bin\Release\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDB.Bson\bin\Release\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDB.Bson\obj\Release\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterExperiment\MongoDB.Bson\obj\Release\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDB.Bson\bin\Release\MongoDB.Bson.XML
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDB.Bson\bin\Release\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDB.Bson\bin\Release\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDB.Bson\obj\Release\MongoDB.Bson.csprojResolveAssemblyReference.cache
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDB.Bson\obj\Release\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterExperimentV2\MongoDB.Bson\obj\Release\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\MongoDB.Bson\bin\Release\MongoDB.Bson.XML
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\MongoDB.Bson\bin\Release\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\MongoDB.Bson\bin\Release\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\MongoDB.Bson\obj\Release\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\MongoDB.Bson\obj\Release\MongoDB.Bson.pdb

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ResultDbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="ResultDbModelStoreContainer">
+          <EntitySet Name="PartIRandomData" EntityType="ResultDbModel.Store.PartIRandomData" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PartIResult" EntityType="ResultDbModel.Store.PartIResult" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="PartIRandomData">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="int" Nullable="false" />
+          <Property Name="Value" Type="nvarchar" Nullable="false" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="PartIResult">
+          <Key>
+            <PropertyRef Name="TestNumber" />
+            <PropertyRef Name="DataBaseType" />
+            <PropertyRef Name="TestCase" />
+            <PropertyRef Name="TestScenario" />
+          </Key>
+          <Property Name="TestNumber" Type="int" Nullable="false" />
+          <Property Name="DataBaseType" Type="int" Nullable="false" />
+          <Property Name="TestCase" Type="int" Nullable="false" />
+          <Property Name="TestScenario" Type="int" Nullable="false" />
+          <Property Name="ExecutionTime" Type="float" Nullable="false" />
+          <Property Name="DateTimeAdded" Type="datetime" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ResultDbModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="Entities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="PartIRandomData" EntityType="ResultDbModel.PartIRandomData" />
+          <EntitySet Name="PartIResult" EntityType="ResultDbModel.PartIResult" />
+        </EntityContainer>
+        <EntityType Name="PartIRandomData">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="Int32" Nullable="false" />
+          <Property Name="Value" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="PartIResult">
+          <Key>
+            <PropertyRef Name="TestNumber" />
+            <PropertyRef Name="DataBaseType" />
+            <PropertyRef Name="TestCase" />
+            <PropertyRef Name="TestScenario" />
+          </Key>
+          <Property Name="TestNumber" Type="Int32" Nullable="false" />
+          <Property Name="DataBaseType" Type="Int32" Nullable="false" />
+          <Property Name="TestCase" Type="Int32" Nullable="false" />
+          <Property Name="TestScenario" Type="Int32" Nullable="false" />
+          <Property Name="ExecutionTime" Type="Double" Nullable="false" />
+          <Property Name="DateTimeAdded" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ResultDbModelStoreContainer" CdmEntityContainer="Entities">
+          <EntitySetMapping Name="PartIRandomData">
+            <EntityTypeMapping TypeName="ResultDbModel.PartIRandomData">
+              <MappingFragment StoreEntitySet="PartIRandomData">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PartIResult">
+            <EntityTypeMapping TypeName="ResultDbModel.PartIResult">
+              <MappingFragment StoreEntitySet="PartIResult">
+                <ScalarProperty Name="TestNumber" ColumnName="TestNumber" />
+                <ScalarProperty Name="DataBaseType" ColumnName="DataBaseType" />
+                <ScalarProperty Name="TestCase" ColumnName="TestCase" />
+                <ScalarProperty Name="TestScenario" ColumnName="TestScenario" />
+                <ScalarProperty Name="ExecutionTime" ColumnName="ExecutionTime" />
+                <ScalarProperty Name="DateTimeAdded" ColumnName="DateTimeAdded" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

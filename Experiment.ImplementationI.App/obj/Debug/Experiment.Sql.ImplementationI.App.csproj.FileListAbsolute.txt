@@ -1,0 +1,3 @@
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Debug\Experiment.ImplementationI.App.exe.config
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\obj\Debug\Experiment.ImplementationI.App.exe
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\obj\Debug\Experiment.ImplementationI.App.pdb

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ResultDbModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="PartIRandomData">
+      <EntityTypeMapping TypeName="ResultDbModel.PartIRandomData">
+        <MappingFragment StoreEntitySet="PartIRandomData">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartIResult">
+      <EntityTypeMapping TypeName="ResultDbModel.PartIResult">
+        <MappingFragment StoreEntitySet="PartIResult">
+          <ScalarProperty Name="TestNumber" ColumnName="TestNumber" />
+          <ScalarProperty Name="DataBaseType" ColumnName="DataBaseType" />
+          <ScalarProperty Name="TestCase" ColumnName="TestCase" />
+          <ScalarProperty Name="TestScenario" ColumnName="TestScenario" />
+          <ScalarProperty Name="ExecutionTime" ColumnName="ExecutionTime" />
+          <ScalarProperty Name="DateTimeAdded" ColumnName="DateTimeAdded" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

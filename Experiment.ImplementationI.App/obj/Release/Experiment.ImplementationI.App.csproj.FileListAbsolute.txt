@@ -1,0 +1,16 @@
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\Experiment.ImplementationI.App.exe.config
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\Experiment.ImplementationI.App.exe
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\Experiment.ImplementationI.App.pdb
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\EntityFramework.dll
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\Experiment.Common.dll
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\MongoDB.Bson.dll
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\MongoDB.Driver.dll
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\Experiment.Common.pdb
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\MongoDB.Bson.pdb
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\MongoDB.Bson.xml
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\MongoDB.Driver.pdb
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\MongoDB.Driver.xml
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\bin\Release\EntityFramework.xml
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\obj\Release\Experiment.ImplementationI.App.csprojResolveAssemblyReference.cache
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\obj\Release\Experiment.ImplementationI.App.exe
+C:\Users\khosrow azizi\workspace\MasterExperimentV3\Experiment.ImplementationI.App\obj\Release\Experiment.ImplementationI.App.pdb

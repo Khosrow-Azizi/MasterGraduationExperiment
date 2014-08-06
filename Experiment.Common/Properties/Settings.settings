@@ -1,0 +1,55 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Experiment.Common.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RunLocal" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DatabaseName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MasterExperimentPartI</Value>
+    </Setting>
+    <Setting Name="LocalSqlConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=localhost;Initial Catalog=MasterExperimentPartI;Persist Security Info=False; Integrated Security=true;&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=localhost;Initial Catalog=MasterExperimentPartI;Persist Security Info=False; Integrated Security=true;</Value>
+    </Setting>
+    <Setting Name="LocalMongoConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;mongodb://localhost&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">mongodb://localhost</Value>
+    </Setting>
+    <Setting Name="RemoteSqlConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=KHOSROW\SQLEXPRESS;Initial Catalog=MasterExperimentPartI;User=MasterExperiment;Password=master;Persist Security Info=True;&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=KHOSROW\SQLEXPRESS;Initial Catalog=MasterExperimentPartI;User=MasterExperiment;Password=master;Persist Security Info=True;</Value>
+    </Setting>
+    <Setting Name="LocalResultDataSource" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="RemoteResultDataSource" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PIETER_LAPTOP\PIETER_LAPTOP</Value>
+    </Setting>
+    <Setting Name="ResultDatabaseName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MasterExperimentResultV2</Value>
+    </Setting>
+    <Setting Name="RemoteMongoConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;mongodb://KHOSROW&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">mongodb://KHOSROW</Value>
+    </Setting>
+    <Setting Name="LocalSqlDataSource" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="RemoteSqlDataSource" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">KHOSROW\SQLEXPRESS</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
